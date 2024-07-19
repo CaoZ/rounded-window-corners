@@ -158,7 +158,7 @@ export const EditShadowPage = GObject.registerClass(
         private update_style() {
             const gen_style = (normal: BoxShadow, hover: BoxShadow) =>
                 `.preview {
-           transition: box-shadow 200ms;
+           transition: box-shadow 100ms;
            ${box_shadow_css(normal)};
            border-radius: 12px;
          }
